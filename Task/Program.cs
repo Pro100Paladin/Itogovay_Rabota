@@ -1,7 +1,4 @@
-﻿
-
-
-Console.Clear();
+﻿Console.Clear();
 
 Console.Write("введите кол-во элементов массива: ");
 int elementsCount = int.Parse(Console.ReadLine()!);
