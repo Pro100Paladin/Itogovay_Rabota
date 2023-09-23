@@ -6,7 +6,13 @@
 
 Console.Clear();
 
-string[] array1 = new string[7] {"999", "11", "hi", "world", "res", "hello", "array"};
+Console.Write("введите кол-во элементов массива: ");
+int elementsCount = int.Parse(Console.ReadLine()!);
+string[] array1 = new string[elementsCount];
+for (int i = 0; i < array1.Length; i++)
+{
+    array1[i] = Convert.ToString(Console.ReadLine()!);
+}
 string[] array2 = new string[array1.Length];
 void SecondArrayWithIF(string[] array1, string[] array2)
 {
