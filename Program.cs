@@ -4,6 +4,7 @@
 // лучше обойтись исключительно массивами.
 
 
+Console.Clear();
 
 string[] array1 = new string[7] {"999", "11", "hi", "world", "res", "hello", "array"};
 string[] array2 = new string[array1.Length];
